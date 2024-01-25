@@ -21,14 +21,12 @@ Module Module1
     '''   <item>exp(x), ln(x), lg(x), abs(x), sqr(x), sin(x), cos(x), tan(x), asin(x), atan(x), acos(x);</item>
     '''   <item>min(x, y), max(x, y), x mod y.</item>
     ''' </list>
-    ''' Синтаксис для указания значения из предыдущей операции: {-1}, где число - смещение относительно текущей операции.<para />
-    ''' Также можно использовать константы: {const_name}.
     ''' </remarks>
     ''' <example>
     ''' <list type="bullet">
-    '''   <item>sin(45 * {const_pi} / 180)^3 + 5/2 - min(2, 4) + 1.2E1</item>
-    '''   <item>min({-1}, {-2}) * 1.5E-2</item>
-    '''   <item>sqr({const_pi} / 2)</item>
+    '''   <item>sin(45 * 3.14 / 180)^3 + 5/2 - min(2, 4) + 1.2E1</item>
+    '''   <item>min(-1, 5) * 1.5E-2</item>
+    '''   <item>sqr(3.14 / 2)</item>
     '''   <item>5 Mod 2 - остаток от деления 5 на 2, равный т.е. "1"</item>
     ''' </list>
     ''' </example>
