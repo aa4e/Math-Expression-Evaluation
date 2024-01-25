@@ -27,7 +27,7 @@ Module Module1
     '''   <item>sin(45 * 3.14 / 180)^3 + 5/2 - min(2, 4) + 1.2E1</item>
     '''   <item>min(-1, 5) * 1.5E-2</item>
     '''   <item>sqr(3.14 / 2)</item>
-    '''   <item>5 Mod 2 - остаток от деления 5 на 2, равный т.е. "1"</item>
+    '''   <item>5 Mod 2 - остаток от деления 5 на 2, т.е. "1"</item>
     ''' </list>
     ''' </example>
     Public Function Evaluate(expression As String) As Double
