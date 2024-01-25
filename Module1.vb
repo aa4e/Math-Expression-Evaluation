@@ -143,7 +143,7 @@ Module Module1
             End Select
         End If
 
-        Return result.ToString(New Globalization.CultureInfo("en-US")) 'важно чтобы была десятичная ".", поэтому CultInfo.
+        Return result.ToString(Globalization.CultureInfo.InvariantCulture) 'важно чтобы была десятичная "."
 
     End Function
 
